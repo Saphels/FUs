@@ -1,0 +1,45 @@
+[00:00:32] [Server thread/INFO]: Saphels has just earned the achievement [Taking Inventory]
+[00:00:33] [Server thread/INFO]: openblocks.common.MapDataManager.onMapDataRequest(MapDataManager.java:145): Player EntityPlayerMP['Saphels'/213, l='Moonglare', x=-66,30, y=75,00, z=247,70](Saphels at -66.30000001192093,75.0,247.69999998807907) asked for non-existent maps {0}
+[00:00:33] [Server thread/INFO]: openblocks.common.MapDataManager.onMapDataRequest(MapDataManager.java:145): Player EntityPlayerMP['Saphels'/213, l='Moonglare', x=-66,30, y=75,00, z=247,70](Saphels at -66.30000001192093,75.0,247.69999998807907) asked for non-existent maps {1}
+[00:00:33] [Server thread/INFO]: openblocks.common.MapDataManager.onMapDataRequest(MapDataManager.java:145): Player EntityPlayerMP['Saphels'/213, l='Moonglare', x=-66,30, y=75,00, z=247,70](Saphels at -66.30000001192093,75.0,247.69999998807907) asked for non-existent maps {2}
+[00:00:33] [Server thread/INFO]: openblocks.common.MapDataManager.onMapDataRequest(MapDataManager.java:145): Player EntityPlayerMP['Saphels'/213, l='Moonglare', x=-66,30, y=75,00, z=247,70](Saphels at -66.30000001192093,75.0,247.69999998807907) asked for non-existent maps {3}
+[00:00:33] [Server thread/INFO]: openblocks.common.MapDataManager.onMapDataRequest(MapDataManager.java:145): Player EntityPlayerMP['Saphels'/213, l='Moonglare', x=-66,30, y=75,00, z=247,70](Saphels at -66.30000001192093,75.0,247.69999998807907) asked for non-existent maps {4}
+[00:00:33] [Server thread/INFO]: openblocks.common.MapDataManager.onMapDataRequest(MapDataManager.java:145): Player EntityPlayerMP['Saphels'/213, l='Moonglare', x=-66,30, y=75,00, z=247,70](Saphels at -66.30000001192093,75.0,247.69999998807907) asked for non-existent maps {5}
+[00:00:33] [Server thread/INFO]: openblocks.common.MapDataManager.onMapDataRequest(MapDataManager.java:145): Player EntityPlayerMP['Saphels'/213, l='Moonglare', x=-66,30, y=75,00, z=247,70](Saphels at -66.30000001192093,75.0,247.69999998807907) asked for non-existent maps {6}
+[00:00:33] [Server thread/INFO]: openblocks.common.MapDataManager.onMapDataRequest(MapDataManager.java:145): Player EntityPlayerMP['Saphels'/213, l='Moonglare', x=-66,30, y=75,00, z=247,70](Saphels at -66.30000001192093,75.0,247.69999998807907) asked for non-existent maps {7}
+[00:00:33] [Server thread/INFO]: openblocks.common.MapDataManager.onMapDataRequest(MapDataManager.java:145): Player EntityPlayerMP['Saphels'/213, l='Moonglare', x=-66,30, y=75,00, z=247,70](Saphels at -66.30000001192093,75.0,247.69999998807907) asked for non-existent maps {8}
+[00:00:33] [Server thread/INFO]: openblocks.common.MapDataManager.onMapDataRequest(MapDataManager.java:145): Player EntityPlayerMP['Saphels'/213, l='Moonglare', x=-66,30, y=75,00, z=247,70](Saphels at -66.30000001192093,75.0,247.69999998807907) asked for non-existent maps {9}
+[00:00:33] [Server thread/INFO]: openblocks.common.MapDataManager.onMapDataRequest(MapDataManager.java:145): Player EntityPlayerMP['Saphels'/213, l='Moonglare', x=-66,30, y=75,00, z=247,70](Saphels at -66.30000001192093,75.0,247.69999998807907) asked for non-existent maps {10}
+[00:00:33] [Server thread/INFO]: openblocks.common.MapDataManager.onMapDataRequest(MapDataManager.java:145): Player EntityPlayerMP['Saphels'/213, l='Moonglare', x=-66,30, y=75,00, z=247,70](Saphels at -66.30000001192093,75.0,247.69999998807907) asked for non-existent maps {11}
+[00:00:33] [Server thread/INFO]: openblocks.common.MapDataManager.onMapDataRequest(MapDataManager.java:145): Player EntityPlayerMP['Saphels'/213, l='Moonglare', x=-66,30, y=75,00, z=247,70](Saphels at -66.30000001192093,75.0,247.69999998807907) asked for non-existent maps {12}
+[00:00:33] [Server thread/INFO]: openblocks.common.MapDataManager.onMapDataRequest(MapDataManager.java:145): Player EntityPlayerMP['Saphels'/213, l='Moonglare', x=-66,30, y=75,00, z=247,70](Saphels at -66.30000001192093,75.0,247.69999998807907) asked for non-existent maps {13}
+[00:00:33] [Server thread/INFO]: openblocks.common.MapDataManager.onMapDataRequest(MapDataManager.java:145): Player EntityPlayerMP['Saphels'/213, l='Moonglare', x=-66,30, y=75,00, z=247,70](Saphels at -66.30000001192093,75.0,247.69999998807907) asked for non-existent maps {14}
+[00:00:33] [Server thread/INFO]: openblocks.common.MapDataManager.onMapDataRequest(MapDataManager.java:145): Player EntityPlayerMP['Saphels'/213, l='Moonglare', x=-66,30, y=75,00, z=247,70](Saphels at -66.30000001192093,75.0,247.69999998807907) asked for non-existent maps {15}
+[00:01:12] [Server thread/INFO]: Saphels lost connection: Disconnected
+[00:01:12] [Server thread/INFO]: Saphels left the game.
+[00:03:33] [Server thread/INFO]: CONSOLE: Stopping the server..
+[00:03:33] [Server thread/INFO]: Stopping server
+[00:03:33] [Server thread/INFO]: Saving players
+[00:03:33] [Server thread/INFO]: Saving worlds
+[00:03:33] [Server thread/INFO]: Saving chunks for level 'Moonglare'/Overworld
+[00:03:33] [Server thread/INFO]: Saving chunks for level 'DIM-37'/Spirit World
+[00:03:33] [Server thread/INFO]: Saving chunks for level 'DIM-38'/Torment
+[00:03:33] [Server thread/INFO]: Saving chunks for level 'DIM-39'/Mirror
+[00:03:33] [Server thread/INFO]: Saving chunks for level 'DIM-73'/Outer Lands
+[00:03:33] [Server thread/INFO]: Saving chunks for level 'DIM-42'/The Outer Lands
+[00:03:33] [Server thread/INFO]: Saving chunks for level 'DIM1'/The End
+[00:03:33] [Server thread/INFO]: Saving chunks for level 'DIM-1'/Nether
+[00:03:33] [Server thread/INFO]: Saving chunks for level 'DIM_MYST-2147483648'/CONTROL
+[00:03:33] [Server thread/INFO]: Baseline Profiling world unloaded before time!
+[00:03:33] [Server thread/INFO]: Unloading dimension 0
+[00:03:33] [Server thread/INFO]: Unloading dimension -1
+[00:03:33] [Server thread/INFO]: Unloading dimension 1
+[00:03:33] [Server thread/INFO]: Unloading dimension -37
+[00:03:33] [Server thread/INFO]: Unloading dimension -38
+[00:03:33] [Server thread/INFO]: Unloading dimension -39
+[00:03:33] [Server thread/INFO]: Unloading dimension -42
+[00:03:33] [Server thread/INFO]: Unloading dimension -73
+[00:03:33] [Server thread/INFO]: Unloading dimension -2147483648
+[00:03:33] [Server thread/INFO]: Applying holder lookups
+[00:03:33] [Server thread/INFO]: Holder lookups applied
+[00:03:33] [Armourer's Workshop Server Skin Thread/INFO]: Stopped server skin thread.

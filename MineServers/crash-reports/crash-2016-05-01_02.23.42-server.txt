@@ -1,0 +1,83 @@
+---- Minecraft Crash Report ----
+// Why did you do that?
+
+Time: 01.05.16 2:23
+Description: Exception in server tick loop
+
+sun.reflect.generics.reflectiveObjects.NotImplementedException
+	at com.khorn.terraincontrol.forge.events.ServerTickHandler.onServerTick(ServerTickHandler.java:105)
+	at cpw.mods.fml.common.eventhandler.ASMEventHandler_360_ServerTickHandler_onServerTick_ServerTickEvent.invoke(.dynamic)
+	at cpw.mods.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:54)
+	at cpw.mods.fml.common.eventhandler.EventBus.post(EventBus.java:140)
+	at cpw.mods.fml.common.FMLCommonHandler.onPostServerTick(FMLCommonHandler.java:251)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:862)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:669)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	KCauldron Version: pw.prok:KCauldron:1.7.10-1614.200 Official
+	Plugins: 
+	Disabled Plugins: 
+	Operating System: Windows 7 (amd64) version 6.1
+	Java Version: 1.8.0_77, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 640501432 bytes (610 MB) / 1058013184 bytes (1009 MB) up to 1908932608 bytes (1820 MB)
+	JVM Flags: 0 total; 
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1614 38 mods loaded, 38 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{7.10.99.99} [Forge Mod Loader] (KCauldron-1.7.10-1614.200.jar) 
+	UCHIJAAAA	Forge{10.13.4.1614} [Minecraft Forge] (KCauldron-1.7.10-1614.200.jar) 
+	UCHIJAAAA	kimagine{0.2} [KImagine] (minecraft.jar) 
+	UCHIJAAAA	CodeChickenCore{1.0.7.47} [CodeChicken Core] (minecraft.jar) 
+	UCHIJAAAA	OpenModsCore{0.9.1} [OpenModsCore] (minecraft.jar) 
+	UCHIJAAAA	<CoFH ASM>{000} [CoFH ASM] (minecraft.jar) 
+	UCHIJAAAA	battlegear2{1.7.10} [Mine & Blade Battlegear 2 - Bullseye] (1.7.10-MB_Battlegear2-Bullseye-1.0.8.2.jar) 
+	UCHIJAAAA	armourersWorkshop{1.7.10-0.38.1.98} [Armourer's Workshop] (Armourers-Workshop-1.7.10-0.38.1.98.jar) 
+	UCHIJAAAA	plushieWrapper{0.0.0} [Plushie Wrapper] (Armourers-Workshop-1.7.10-0.38.1.98.jar) 
+	UCHIJAAAA	BiblioCraft{1.11.4} [BiblioCraft] (BiblioCraft[v1.11.4][MC1.7.10].jar) 
+	UCHIJAAAA	AWWayofTime{v1.3.3} [Blood Magic: Alchemical Wizardry] (BloodMagic-1.7.10-1.3.3-17.jar) 
+	UCHIJAAAA	Baubles{1.0.1.10} [Baubles] (Baubles-1.7.10-1.0.1.10.jar) 
+	UCHIJAAAA	Thaumcraft{4.2.3.5} [Thaumcraft] (Thaumcraft-1.7.10-4.2.3.5.jar) 
+	UCHIJAAAA	Botania{r1.8-248} [Botania] (Botania r1.8-248.jar) 
+	UCHIJAAAA	ForgeMultipart{1.2.0.345} [Forge Multipart] (ForgeMultipart-1.7.10-1.2.0.345-universal.jar) 
+	UCHIJAAAA	chisel{2.9.4.10} [Chisel] (Chisel-2.9.4.10.jar) 
+	UCHIJAAAA	CoFHCore{1.7.10R3.1.2} [CoFH Core] (CoFHCore-[1.7.10]3.1.2-325.jar) 
+	UCHIJAAAA	MineTweaker3{3.0.0} [MineTweaker 3] (CraftTweaker-Customized-1.7.10-3.0.1.jar) 
+	UCHIJAAAA	customnpcs{1.7.10d} [CustomNpcs] (CustomNPCs_1.7.10d.jar) 
+	UCHIJAAAA	CustomStuff2{0.11.29} [Custom Stuff 2] (CustomStuff2-0.11.29-MC1.7.10.jar) 
+	UCHIJAAAA	DummyCore{1.13} [DummyCore] (DummyCore1.13.jar) 
+	UCHIJAAAA	etfuturum{1.5.5} [Et Futurum] (Et Futurum-1.5.5.jar) 
+	UCHIJAAAA	ForbiddenMagic{1.7.10-0.573} [Forbidden Magic] (Forbidden Magic-1.7.10-0.573.jar) 
+	UCHIJAAAA	McMultipart{1.2.0.345} [Minecraft Multipart Plugin] (ForgeMultipart-1.7.10-1.2.0.345-universal.jar) 
+	UCHIJAAAA	gadomancy{1.0.6.1} [Gadomancy] (gadomancy-1.7.10-1.0.6.3.jar) 
+	UCHIJAAAA	modtweaker2{0.9.5} [Mod Tweaker 2] (ModTweaker2-0.9.5.jar) 
+	UCHIJAAAA	moreplayermodels{1.7.10b} [MorePlayerModels] (MorePlayerModels_1.7.10b.jar) 
+	UCHIJAAAA	Mystcraft{0.12.3.01} [Mystcraft] (mystcraft-1.7.10-0.12.3.01.jar) 
+	UCHIJAAAA	NetherOres{1.7.10R2.3.1} [Nether Ores] (NetherOres-[1.7.10]2.3.1-22.jar) 
+	UCHIJAAAA	OpenMods{0.9.1} [OpenMods] (OpenModsLib-1.7.10-0.9.1.jar) 
+	UCHIJAAAA	OpenBlocks{1.5.1} [OpenBlocks] (OpenBlocks-1.7.10-1.5.1.jar) 
+	UCHIJAAAA	TaintedMagic{1.1.6.4} [Tainted Magic] (TaintedMagic-1.1.6.4.jar) 
+	UCHIJAAAA	TravellersGear{1.16.6} [Traveller's Gear] (TravellersGear-1.7.10-1.16.6.jar) 
+	UCHIJAAAA	witchery{0.24.1} [Witchery] (witchery-1.7.10-0.24.1.jar) 
+	UCHIJAAAA	TC/MCW{2.6.2 (MCW)} [TC/MCW] (terraincontrol-forge-MCW for MC 1.7.10 1.0.5 (TC 2.6.3).jar) 
+	UCHIJAAAA	FMPIntegration{1.0} [FMPIntegration] (fmpintegration-1.2.2-1.7.10.jar) 
+	UCHIJAAAA	ForgeMicroblock{1.2.0.345} [Forge Microblocks] (ForgeMultipart-1.7.10-1.2.0.345-universal.jar) 
+	OpenModsLib class transformers: [stencil_patches:ENABLED],[movement_callback:ENABLED],[map_gen_fix:FINISHED],[gl_capabilities_hook:ENABLED],[player_render_hook:ENABLED]
+	Class transformer null safety: all safe
+	CoFHCore: -[1.7.10]3.1.2-325
+	NetherOres: -[1.7.10]2.3.1-22
+	Chisel: Errors like "[FML]: Unable to lookup ..." are NOT the cause of this crash. You can safely ignore these errors. And update forge while you're at it.
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Player Count: 0 / 20; []
+	Is Modded: Definitely; Server brand changed to 'kcauldron,cauldron,craftbukkit,mcpc,fml,forge'
+	Type: Dedicated Server (map_server.txt)
