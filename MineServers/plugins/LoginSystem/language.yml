@@ -1,0 +1,13 @@
+msg:
+  noper: "&cYou don\xb4t have access to do this."
+  login_usage: '&cUsage: /login <password>'
+  login_success: '&aSuccessfully logged in!'
+  login_wrongpw: "\xa7cWrong password!"
+  register_usage: '&cUsage: /register <password>'
+  register_usage_success: "\xa7cYou have succesful registert !"
+  please_login: "\xa7cPlease loggin /login <password>"
+  please_register: '&cPlease Register: /register <password>'
+  usage_unregister: '&cUsage: /unregister <Player>'
+  unregister_succes: '&cYou succesful unregistert &a%player% &c!'
+  changepassword_usage: '&cUsage: /changepw <Player> <NEW-Password>!'
+  changepassword_success: '&cYou succesful changed password of &a%player% &c!'

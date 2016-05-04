@@ -325,6 +325,13 @@ petalRed
 runeEnvyB
 petalBlack
 runePrideB
+quartzDark
+quartzMana
+quartzBlaze
+quartzLavender
+quartzRed
+quartzElven
+quartzSunny
 pestleAndMortar
 ingotManasteel
 manaPearl

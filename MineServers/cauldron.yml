@@ -70,17 +70,36 @@ world-settings:
     allow-tnt-punishment: true
     infinite-water-source: true
     entity-despawn-immediate: false
-    worldgen-etfuturum-EtFuturumWorldGenerator: true
-    worldgen-Mystcraft-MystWorldGenerator: true
     worldgen-chisel-GeneratorChisel: true
     worldgen-CoFHCore-WorldHandler: true
     worldgen-TaintedMagic-WorldGenOre: true
+    worldgen-Mystcraft-MystWorldGenerator: true
+    worldgen-etfuturum-EtFuturumWorldGenerator: true
     worldgen-Thaumcraft-ThaumcraftWorldGenerator: true
     worldgen-witchery-WitcheryWorldGenerator: true
   max-players-visible: -1
 plugin-settings:
   default:
     remap-plugin-file: false
+    custom-class-loader: true
+    debug: false
+    remap-nms-v1_7_R4: true
+    remap-nms-v1_7_R3: true
+    remap-nms-v1_7_R1: true
+    remap-nms-v1_6_R3: true
+    remap-nms-v1_5_R3: true
+    remap-nms-pre: 'false'
+    remap-obc-v1_7_R4: true
+    remap-obc-v1_7_R3: true
+    remap-obc-v1_7_R1: true
+    remap-obc-v1_6_R3: true
+    remap-obc-v1_5_R3: true
+    remap-obc-pre: false
+    global-inheritance: true
+    plugin-inheritance: true
+    remap-reflect-field: true
+    remap-reflect-class: true
+    remap-allow-future: false
 fake-players:
   do-login: false
 debug:
