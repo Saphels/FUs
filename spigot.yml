@@ -18,43 +18,31 @@ messages:
   outdated-client: Outdated client! Please use {}
   outdated-server: Outdated server! I'm still on {}
   restart: Server is restarting
-commands:
-  tab-complete: true
-  log: true
 stats:
   disable-saving: false
   forced-stats: {}
+commands:
+  tab-complete: true
+  log: true
 settings:
+  player-shuffle: 0
+  fullMatchRate: 10
+  bungeecord: false
   late-bind: false
   sample-count: 12
   timeout-time: 90
   restart-on-crash: true
   restart-script: ./start.sh
   netty-threads: -1
-  player-shuffle: 0
-  fullMatchRate: 10
-  bungeecord: false
 world-settings:
   default:
     verbose: false
-    enable-zombie-pigmen-portal-spawns: true
-    merge-radius:
-      exp: 3.0
-      item: 2.5
-    max-entity-collisions: 8
     chunks-per-tick: 650
     clear-tick-list: false
-    arrow-despawn-rate: 1200
-    use-async-lighting: true
-    view-distance: 10
-    growth:
-      cactus-modifier: 100
-      cane-modifier: 100
-      melon-modifier: 100
-      mushroom-modifier: 100
-      pumpkin-modifier: 100
-      sapling-modifier: 100
-      wheat-modifier: 100
+    merge-radius:
+      item: 2.5
+      exp: 3.0
+    mob-spawn-range: 4
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -76,7 +64,14 @@ world-settings:
       - 1
       - 5
     nerf-spawner-mobs: false
-    mob-spawn-range: 4
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      wheat-modifier: 100
     entity-activation-range:
       animals: 32
       monsters: 32
@@ -91,11 +86,16 @@ world-settings:
       tile: 50
       entity: 50
     max-tnt-per-tick: 100
-    item-despawn-rate: 6000
+    enable-zombie-pigmen-portal-spawns: true
     zombie-aggressive-towards-villager: true
+    arrow-despawn-rate: 1200
+    max-entity-collisions: 8
     entity-tracking-range:
       players: 48
       animals: 48
       monsters: 48
       misc: 32
       other: 64
+    item-despawn-rate: 6000
+    use-async-lighting: true
+    view-distance: 10

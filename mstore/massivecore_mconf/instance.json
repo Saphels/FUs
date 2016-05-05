@@ -1,9 +1,7 @@
 {
   "aliasesOuterMassiveCore": [
     "massivecore",
-    "mcore",
-    "massivec",
-    "mc"
+    "mcore"
   ],
   "aliasesOuterMassiveCoreUsys": [
     "usys"
@@ -14,6 +12,9 @@
   ],
   "aliasesOuterMassiveCoreBuffer": [
     "buffer"
+  ],
+  "aliasesOuterMassiveCoreCmdurl": [
+    "cmdurl"
   ],
   "usingRecipientChatEvent": true,
   "permissionDeniedFormats": {
