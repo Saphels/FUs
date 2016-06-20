@@ -1,1 +1,1 @@
-java KCauldron.jar
+java -jar KCauldron.jar
