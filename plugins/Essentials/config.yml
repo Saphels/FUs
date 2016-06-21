@@ -20,7 +20,7 @@
 ############################################################
 
 # A color code between 0-9 or a-f. Set to 'none' to disable.
-ops-name-color: 'none'
+ops-name-color: '4'
 
 # The character(s) to prefix all nicknames, so that you know they are not true usernames.
 nickname-prefix: '~'
@@ -112,27 +112,27 @@ disabled-commands:
 # remove commands that are used for something you dont want to spy on.
 # Set - '*' in order to listen on all possible commands.
 socialspy-commands:
-  * msg
-  * w
-  * r
-  * mail
-  * m
-  * t
-  * whisper
-  * emsg
-  * tell
-  * er
-  * reply
-  * ereply
-  * email
-  * action
-  * describe
-  * eme
-  * eaction
-  * edescribe
-  * etell
-  * ewhisper
-  * pm
+  - msg
+  - w
+  - r
+  - mail
+  - m
+  - t
+  - whisper
+  - emsg
+  - tell
+  - er
+  - reply
+  - ereply
+  - email
+  - action
+  - describe
+  - eme
+  - eaction
+  - edescribe
+  - etell
+  - ewhisper
+  - pm
 
 # If you do not wish to use a permission system, you can define a list of 'player perms' below.
 # This list has no effect if you are using a supported permissions system.
@@ -155,29 +155,70 @@ player-commands:
   - clearinventory
   - compass
   - depth
+  - delhome
+  - getpos
+  - geoip.show
   - help
   - helpop
+  - home
+  - home.others
   - ignore
   - info
+  - itemdb
   - kit
   - kits.tools
   - list
   - mail
   - mail.send
   - me
+  - motd
   - msg
   - msg.color
   - nick
   - near
   - pay
   - ping
+  - protect
   - r
   - rules
   - realname
   - seen
   - sell
+  - sethome
+  - setxmpp
+  - signs.create.protection
+  - signs.create.trade
+  - signs.break.protection
+  - signs.break.trade
+  - signs.use.balance
+  - signs.use.buy
+  - signs.use.disposal
+  - signs.use.enchant
+  - signs.use.free
+  - signs.use.gamemode
+  - signs.use.heal
+  - signs.use.info
+  - signs.use.kit
+  - signs.use.mail
+  - signs.use.protection
+  - signs.use.repair
+  - signs.use.sell
+  - signs.use.time
+  - signs.use.trade
+  - signs.use.warp
+  - signs.use.weather
+  - spawn
   - suicide
-  
+  - time
+  - tpa
+  - tpaccept
+  - tpahere
+  - tpdeny
+  - warp
+  - warp.list
+  - world
+  - worth
+  - xmpp
 
 # Note: All items MUST be followed by a quantity!
 # All kit names should be lower case, and will be treated as lower in permissions/costs.
@@ -224,7 +265,24 @@ kits:
 
 enabledSigns:
   #- color
-  
+  #- balance
+  #- buy
+  #- sell
+  #- trade
+  #- free
+  #- disposal
+  #- warp
+  #- kit
+  #- mail
+  #- enchant
+  #- gamemode
+  #- heal
+  #- info
+  #- spawnmob
+  #- repair
+  #- time
+  #- weather
+
 # How many times per second can Essentials signs be interacted with per player.
 # Values should be between 1-20, 20 being virtually no lag protection.
 # Lower numbers will reduce the possibility of lag, but may annoy players.
@@ -309,11 +367,11 @@ allow-silent-join-quit: false
 
 # You can set a custom join message here, set to "none" to disable.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
-custom-join-message: "{USERNAME} entered the server"
+custom-join-message: "none"
 
 # You can set a custom quit message here, set to "none" to disable.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
-custom-quit-message: "{USERNAME} left the server"
+custom-quit-message: "none"
 
 # Add worlds to this list, if you want to automatically disable god mode there.
 no-god-in-worlds:
@@ -349,7 +407,7 @@ unsafe-enchantments: false
 register-back-in-listener: false
 
 #Delay to wait before people can cause attack damage after logging in.
-login-attack-delay: 10
+login-attack-delay: 5
 
 #Set the max fly speed, values range from 0.1 to 1.0
 max-fly-speed: 0.8
@@ -386,8 +444,8 @@ world-home-permissions: false
 # Create the 'home-rank' below, and give the matching permission: essentials.sethome.multiple.<home-rank>
 # For more information, visit http://wiki.ess3.net/wiki/Multihome
 sethome-multiple:
-  default: 0
-  vip: 0
+  default: 3
+  vip: 5
   staff: 10
 
 # In this example someone with 'essentials.sethome.multiple' and 'essentials.sethome.multiple.vip' will have 5 homes.
@@ -661,7 +719,7 @@ newbies:
 
   # When we spawn for the first time, which spawnpoint do we use?
   # Set to "none" if you want to use the spawn point of the world.
-  spawnpoint: none
+  spawnpoint: newbies
 
   # Do we want to give users anything on first join? Set to '' to disable
   # This kit will be given regardless of cost and permissions, and will not trigger the kit delay.
@@ -674,6 +732,6 @@ newbies:
 respawn-listener-priority: high
 
 # When users die, should they respawn at their first home or bed, instead of the spawnpoint?
-respawn-at-home: true
+respawn-at-home: false
 
 # End of file <-- No seriously, you're done with configuration.

@@ -4,3 +4,7 @@ warnMetrics: true
 movemotdToFile: true
 moverulesToFile: true
 deleteOldItemsCsv: true
+sanitizeAllUserFilenames: true
+updateUsersPowerToolsFormat: true
+updateUsersHomesFormat: true
+banFormatChange: true
