@@ -22,25 +22,34 @@ debug:
 config-version: 1
 world-settings:
   default:
-    thaumcraft-common-tiles-TileNode:
-      tick-no-players: false
-      tick-interval: 1
     makeo-gadomancy-common-blocks-tiles-TileExtendedNode:
-      tick-no-players: false
-      tick-interval: 1
-    net-minecraft-tileentity-TileEntityChest:
       tick-no-players: false
       tick-interval: 1
     net-minecraft-tileentity-TileEntityMobSpawner:
       tick-no-players: false
       tick-interval: 1
+    growthcraft-cellar-common-tileentity-TileEntityFermentBarrel:
+      tick-no-players: false
+      tick-interval: 1
+    thaumcraft-common-tiles-TileNode:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityFurnace:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityChest:
+      tick-no-players: false
+      tick-interval: 1
+    com-xcompwiz-mystcraft-tileentity-TileEntityDesk:
+      tick-no-players: false
+      tick-interval: 1
     com-xcompwiz-mystcraft-tileentity-TileEntityLectern:
       tick-no-players: false
       tick-interval: 1
-    thaumcraft-common-tiles-TileEldritchObelisk:
+    thaumcraft-common-tiles-TileEldritchAltar:
       tick-no-players: false
       tick-interval: 1
-    thaumcraft-common-tiles-TileEldritchAltar:
+    thaumcraft-common-tiles-TileEldritchObelisk:
       tick-no-players: false
       tick-interval: 1
     jds-bibliocraft-tileentities-TileEntitySeat:
