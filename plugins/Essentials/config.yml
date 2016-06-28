@@ -20,7 +20,7 @@
 ############################################################
 
 # A color code between 0-9 or a-f. Set to 'none' to disable.
-ops-name-color: '4'
+ops-name-color: 'none'
 
 # The character(s) to prefix all nicknames, so that you know they are not true usernames.
 nickname-prefix: '~'
@@ -33,7 +33,7 @@ change-displayname: true
 
 # When this option is enabled, the (tab) player list will be updated with the displayname.
 # The value of change-displayname (above) has to be true.
-#change-playerlist: true
+change-playerlist: true
 
 # When EssentialsChat.jar isn't used, force essentials to add the prefix and suffix from permission plugins to displayname.
 # This setting is ignored if EssentialsChat.jar is used, and defaults to 'true'.
@@ -282,7 +282,7 @@ allow-silent-join-quit: false
 
 # You can set a custom join message here, set to "none" to disable.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
-custom-join-message: "none"
+custom-join-message: "{PLAYER} entered the Ultimate Fantasy"
 
 # You can set a custom quit message here, set to "none" to disable.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
@@ -468,10 +468,10 @@ protect:
     lava-flow: false
     water-flow: false
     water-bucket-flow: false
-    fire-spread: true
-    lava-fire-spread: true
+    fire-spread: false
+    lava-fire-spread: false
     flint-fire: false
-    lightning-fire-spread: true
+    lightning-fire-spread: false
     portal-creation: false
     tnt-explosion: false
     tnt-playerdamage: false
@@ -487,7 +487,7 @@ protect:
     creeper-explosion: false
     creeper-playerdamage: false
     creeper-blockdamage: false
-    enderdragon-blockdamage: true
+    enderdragon-blockdamage: false
     enderman-pickup: false
     villager-death: false
     # Monsters won't follow players.
@@ -603,10 +603,10 @@ protect:
   blacklist:
 
     # Which blocks should people be prevented from placing?
-    placement: 10,11,46,327
+    placement:
 
     # Which items should people be prevented from using?
-    usage: 327
+    usage:
 
     # Which blocks should people be prevented from breaking?
     break:
@@ -634,7 +634,7 @@ newbies:
 
   # When we spawn for the first time, which spawnpoint do we use?
   # Set to "none" if you want to use the spawn point of the world.
-  spawnpoint: newbies
+  spawnpoint: none
 
   # Do we want to give users anything on first join? Set to '' to disable
   # This kit will be given regardless of cost and permissions, and will not trigger the kit delay.
@@ -647,6 +647,6 @@ newbies:
 respawn-listener-priority: high
 
 # When users die, should they respawn at their first home or bed, instead of the spawnpoint?
-respawn-at-home: false
+respawn-at-home: true
 
 # End of file <-- No seriously, you're done with configuration.
