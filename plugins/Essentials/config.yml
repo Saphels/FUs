@@ -142,8 +142,6 @@ socialspy-commands:
 player-commands:
   - afk
   - afk.auto
-  - back
-  - back.ondeath
   - balance
   - balance.others
   - balancetop
@@ -173,7 +171,6 @@ player-commands:
   - near
   - pay
   - ping
-  - protect
   - r
   - rules
   - realname
