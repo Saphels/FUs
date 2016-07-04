@@ -178,6 +178,18 @@ player-commands:
   - sell
   - sethome
   - suicide
+  - wave
+  - sit
+  - sleep
+  - dance
+  - love
+  - hug
+  - sing
+  - crawl 
+  - wag 
+  - cry
+  - angry
+  - bow
 
 # Note: All items MUST be followed by a quantity!
 # All kit names should be lower case, and will be treated as lower in permissions/costs.
