@@ -70,14 +70,14 @@ world-settings:
     allow-tnt-punishment: true
     infinite-water-source: true
     entity-despawn-immediate: false
-    worldgen-TaintedMagic-WorldGenOre: true
-    worldgen-chisel-GeneratorChisel: true
-    worldgen-GrowthcraftBamboo-WorldGeneratorBamboo: true
     worldgen-etfuturum-EtFuturumWorldGenerator: true
     worldgen-witchery-WitcheryWorldGenerator: true
+    worldgen-chisel-GeneratorChisel: true
     worldgen-GrowthcraftBees-WorldGeneratorBees: true
-    worldgen-Thaumcraft-ThaumcraftWorldGenerator: true
     worldgen-CoFHCore-WorldHandler: true
+    worldgen-Thaumcraft-ThaumcraftWorldGenerator: true
+    worldgen-TaintedMagic-WorldGenOre: true
+    worldgen-GrowthcraftBamboo-WorldGeneratorBamboo: true
     worldgen-Mystcraft-MystWorldGenerator: true
     worldgen-GrowthcraftMilk-WorldGeneratorThistle: true
   max-players-visible: -1

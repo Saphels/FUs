@@ -18,35 +18,28 @@ messages:
   outdated-client: Outdated client! Please use {}
   outdated-server: Outdated server! I'm still on {}
   restart: Server is restarting
-settings:
-  player-shuffle: 0
-  late-bind: false
-  sample-count: 12
-  timeout-time: 90
-  restart-on-crash: true
-  restart-script: ./start.sh
-  netty-threads: -1
-  fullMatchRate: 10
-  bungeecord: false
 commands:
   tab-complete: true
   log: true
 stats:
   disable-saving: false
   forced-stats: {}
+settings:
+  player-shuffle: 0
+  fullMatchRate: 10
+  bungeecord: false
+  late-bind: false
+  sample-count: 12
+  timeout-time: 90
+  restart-on-crash: true
+  restart-script: ./start.sh
+  netty-threads: -1
 world-settings:
   default:
     verbose: false
-    view-distance: 10
-    max-entity-collisions: 8
-    item-despawn-rate: 6000
     arrow-despawn-rate: 1200
-    chunks-per-tick: 650
-    clear-tick-list: false
-    merge-radius:
-      exp: 3.0
-      item: 2.5
-    use-async-lighting: true
+    item-despawn-rate: 6000
+    view-distance: 10
     enable-zombie-pigmen-portal-spawns: true
     zombie-aggressive-towards-villager: true
     entity-tracking-range:
@@ -55,6 +48,14 @@ world-settings:
       monsters: 48
       misc: 32
       other: 64
+    chunks-per-tick: 650
+    clear-tick-list: false
+    merge-radius:
+      exp: 3.0
+      item: 2.5
+    use-async-lighting: true
+    max-entity-collisions: 8
+    mob-spawn-range: 4
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -75,7 +76,6 @@ world-settings:
       replace-blocks:
       - 1
       - 5
-    mob-spawn-range: 4
     nerf-spawner-mobs: false
     growth:
       cactus-modifier: 100

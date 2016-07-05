@@ -40,16 +40,19 @@ world-settings:
     net-minecraft-tileentity-TileEntityChest:
       tick-no-players: false
       tick-interval: 1
-    com-xcompwiz-mystcraft-tileentity-TileEntityDesk:
+    thaumcraft-common-tiles-TileEldritchAltar:
+      tick-no-players: false
+      tick-interval: 1
+    thaumcraft-common-tiles-TileEldritchObelisk:
       tick-no-players: false
       tick-interval: 1
     com-xcompwiz-mystcraft-tileentity-TileEntityLectern:
       tick-no-players: false
       tick-interval: 1
-    thaumcraft-common-tiles-TileEldritchAltar:
+    com-xcompwiz-mystcraft-tileentity-TileEntityDesk:
       tick-no-players: false
       tick-interval: 1
-    thaumcraft-common-tiles-TileEldritchObelisk:
+    com-emoniph-witchery-worldgen-WorldHandlerVillageDistrictWallBlockVillageWallGenTileEntityVillageWallGen:
       tick-no-players: false
       tick-interval: 1
     jds-bibliocraft-tileentities-TileEntitySeat:
