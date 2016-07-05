@@ -67,6 +67,30 @@ protections:
         trapped_chest:
             autoRegister: private
             enabled: true
+        #Iron Chest
+        '181':
+                enabled: true
+                autoRegister: Private
+        #Gold Chest
+        '181:1':
+                enabled: true
+                autoRegister: Private
+        #Diamond Chest
+        '181:2':
+                enabled: true
+                autoRegister: Private
+        #Copper Chest
+        '181:3':
+                enabled: true
+                autoRegister: Private
+        #Silver Chest
+        '181:4':
+                enabled: true
+                autoRegister: Private
+        #Crystal Chest
+        '181:5':
+                enabled: true
+                autoRegister: Private
 modes:
     droptransfer:
         enabled: true
