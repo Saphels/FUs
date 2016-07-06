@@ -95,6 +95,10 @@ protections:
         '1370:6':
                 enabled: true
                 autoRegister: Private
+        #Dirt Chest
+        '1370:7':
+                enabled: true
+                autoRegister: Private
 modes:
     droptransfer:
         enabled: true
