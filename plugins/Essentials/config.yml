@@ -26,7 +26,7 @@ ops-name-color: 'none'
 nickname-prefix: '~'
 
 # The maximum length allowed in nicknames. The nickname prefix is included in this.
-max-nick-length: 15
+max-nick-length: 40
 
 # Disable this if you have any other plugin, that modifies the displayname of a user.
 change-displayname: true

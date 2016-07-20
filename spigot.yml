@@ -25,36 +25,34 @@ stats:
   disable-saving: false
   forced-stats: {}
 settings:
-  player-shuffle: 0
-  fullMatchRate: 10
-  bungeecord: false
   late-bind: false
   sample-count: 12
   timeout-time: 90
   restart-on-crash: true
   restart-script: ./start.sh
   netty-threads: -1
+  player-shuffle: 0
+  fullMatchRate: 10
+  bungeecord: false
 world-settings:
   default:
     verbose: false
-    arrow-despawn-rate: 1200
-    item-despawn-rate: 6000
+    use-async-lighting: true
     view-distance: 10
+    item-despawn-rate: 6000
+    max-entity-collisions: 8
     enable-zombie-pigmen-portal-spawns: true
     zombie-aggressive-towards-villager: true
+    arrow-despawn-rate: 1200
     entity-tracking-range:
       players: 48
       animals: 48
       monsters: 48
       misc: 32
       other: 64
-    chunks-per-tick: 650
-    clear-tick-list: false
     merge-radius:
-      exp: 3.0
       item: 2.5
-    use-async-lighting: true
-    max-entity-collisions: 8
+      exp: 3.0
     mob-spawn-range: 4
     anti-xray:
       enabled: true
@@ -99,3 +97,5 @@ world-settings:
       tile: 50
       entity: 50
     max-tnt-per-tick: 100
+    chunks-per-tick: 650
+    clear-tick-list: false

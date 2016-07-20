@@ -51,7 +51,7 @@ settings:
     teleportUnAuthedToSpawn: false
     minNicknameLength: 3
     allowMovement: false
-    timeout: 30
+    timeout: 70
     allowedNicknameCharacters: '[a-zA-Z0-9_]*'
     allowedMovementRadius: 100
     enablePasswordVerifier: true

@@ -1,7 +1,7 @@
 lastAccountName: Saphels
 timestamps:
-  login: 1466520811186
-  logout: 1466520899601
+  login: 1468350038646
+  logout: 1468350233627
 ipAddress: 127.0.0.1
 lastlocation:
   world: Moonglare
@@ -12,9 +12,9 @@ lastlocation:
   pitch: 0.0
 logoutlocation:
   world: Moonglare
-  x: 270.77895585028
-  y: 64.0
-  z: 286.72759174981684
-  yaw: -72.90001
-  pitch: -8.100001
+  x: 263.39271449423086
+  y: 79.88220109418093
+  z: 309.97811676908265
+  yaw: -138.45003
+  pitch: 13.800015
 socialspy: false
